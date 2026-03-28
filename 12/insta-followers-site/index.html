@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متابعين إنستغرام مجانا | Free Instagram Boost</title>
+    <meta name="description" content="متابعين، لايكات، اكسبلور، حفظ، ريبوست إنستغرام مجانا بدون عملات أو مهام! اضغط واستلم فورا.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fab fa-instagram"></i> FreeInsta
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#free">الخدمات المجانية</a></li>
+                    <li><a href="#services">المزيد</a></li>
+                    <li><a href="#contact">الدعم</a></li>
+                </ul>
+                <div class="dark-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1><span class="free-highlight">مجانا 100%</span><br>متابعين • لايكات • اكسبلور<br>حفظ • ريبوست إنستغرام</h1>
+            <p>لا عملات، لا مهام، لا انتظار - ادخل اليوزر واستلم فورا!</p>
+            <div class="quick-start">
+                <input type="text" id="quickUsername" placeholder="@username">
+                <button class="quick-btn" onclick="quickBoost()">ابدأ الآن Boost Now</button>
+            </div>
+        </div>
+        <canvas id="particles"></canvas>
+    </section>
+
+    <!-- Free Services Section -->
+    <section id="free" class="free-services">
+        <div class="container">
+            <h2>اضغط استلم <span class="free-highlight">مجانا</span></h2>
+            <div class="free-grid">
+                <div class="free-card active" data-service="followers">
+                    <i class="fas fa-users"></i>
+                    <h3>50 متابعين</h3>
+                    <button class="free-btn big" onclick="claimService('followers')">استلم مجانا</button>
+                </div>
+                <div class="free-card" data-service="likes">
+                    <i class="fas fa-heart"></i>
+                    <h3>100 لايك</h3>
+                    <button class="free-btn big" onclick="claimService('likes')">استلم مجانا</button>
+                </div>
+                <div class="free-card" data-service="explore">
+                    <i class="fas fa-eye"></i>
+                    <h3>50 اكسبلور</h3>
+                    <button class="free-btn big" onclick="claimService('explore')">استلم مجانا</button>
+                </div>
+                <div class="free-card" data-service="saves">
+                    <i class="fas fa-bookmark"></i>
+                    <h3>10 حفظ</h3>
+                    <button class="free-btn big" onclick="claimService('saves')">استلم مجانا</button>
+                </div>
+                <div class="free-card" data-service="reposts">
+                    <i class="fas fa-retweet"></i>
+                    <h3>5 ريبوست</h3>
+                    <button class="free-btn big" onclick="claimService('reposts')">استلم مجانا</button>
+                </div>
+            </div>
+            <div class="status-bar" id="statusBar">
+                <div class="status-progress">
+                    <div class="status-fill"></div>
+                </div>
+                <span>جاري التسليم...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Info -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>كيف يعمل؟</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-magic"></i>
+                    <h3>سحري ومجاني</h3>
+                    <p>لا تسجيل، لا مهام، استلم فورا!</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <h3>فوري</h3>
+                    <p>يبدأ التسليم في ثواني</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>آمن 100%</h3>
+                    <p>لا مخاطر على حسابك</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>موبايل</h3>
+                    <p>يعمل على كل الأجهزة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Support -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>الدعم الفني</h2>
+            <div class="support-grid">
+                <div class="support-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>واتساب</h3>
+                    <p>01551657717</p>
+                    <a href="https://wa.me/201551657717?text=مرحبا من موقع المتابعين المجاني" class="whatsapp-btn">تواصل الآن</a>
+                </div>
+                <div class="support-item">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>أسئلة شائعة</h3>
+                    <p>كل الخدمات مجانية - اضغط استلم!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FreeInsta - متابعين إنستغرام مجانا للكل بدون شروط!</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/201551657717?text=مرحبا من موقع المتابعين المجاني" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
